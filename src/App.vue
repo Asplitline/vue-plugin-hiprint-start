@@ -87,7 +87,7 @@ const demos = {
   start05,
 };
 // curDemo 用于存放当前 demo 的 name
-const curDemo = ref(Object.keys(demos)[0]);
+const curDemo = ref(Object.keys(demos)[1]);
 // 切换 demo
 const changeDemo = (item) => {
   curDemo.value = item.demo;
